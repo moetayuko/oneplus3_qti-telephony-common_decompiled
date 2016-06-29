@@ -20,16 +20,16 @@
     .param p2, "iccid"    # Ljava/lang/String;
 
     .prologue
-    .line 70
+    .line 73
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 71
+    .line 74
     iput p1, p0, Lcom/qti/internal/telephony/CurrentCardStatus;->cardStatus:I
 
-    .line 72
+    .line 75
     iput-object p2, p0, Lcom/qti/internal/telephony/CurrentCardStatus;->iccId:Ljava/lang/String;
 
-    .line 73
+    .line 76
     return-void
 .end method
 
@@ -39,7 +39,7 @@
     .locals 1
 
     .prologue
-    .line 77
+    .line 80
     iget-boolean v0, p0, Lcom/qti/internal/telephony/CurrentCardStatus;->isCDMACard:Z
 
     return v0
