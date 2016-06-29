@@ -252,7 +252,7 @@
     goto :goto_1
 .end method
 
-.method private static getPrimaryStackPhoneId()I
+.method public static getPrimaryStackPhoneId()I
     .locals 7
 
     .prologue
